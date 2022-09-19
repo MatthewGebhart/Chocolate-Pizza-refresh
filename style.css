@@ -1,0 +1,177 @@
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 16%;
+}
+
+nav {
+    display:inline-flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    font-family:'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+main {
+    padding: 10px 16%;
+}
+
+footer {
+    padding: 10px 16%;
+}
+
+header li {
+    display: inline
+}
+
+
+#repeat {
+    height: 4px;
+    background-image: url(./img/hr-img.png);
+    background-repeat: repeat-x;
+}
+
+.rightpad {
+    padding-right: 10px;
+}
+
+#fancyfont {
+    font-family:yellowtail;
+    color: black;
+    font-size:x-large;
+}
+
+#subheaderfont {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-small;
+    color: gray;
+}
+    
+
+
+.image-fullwidth {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 20px;
+}
+
+.image-grow {
+max-width: 100%;
+}
+.rightpadsmall {
+    padding-right: 5px;
+    height: 14px;
+}
+
+#post-date {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+p {
+    padding-bottom: 5px;
+    color: grey;
+}
+
+#tab {
+    text-indent: 40px;
+}
+
+#print {
+    display: inline-flex;
+    font-size:x-small;
+
+}
+
+#checklist1 {
+    display:flex;
+    z-index: 9;
+    position: absolute;
+    justify-content: space-around;
+    padding: 5% 60% 0px 0px;
+    font-family:'Patrick Hand', cursive;
+    line-height: 30px;
+    color:rgb(108, 100, 81);
+}
+
+#checklist2 {
+    display:flex;
+    z-index: 9;
+    position: absolute;
+    justify-content: space-around;
+    padding: 5% 0 0 50%;
+    font-family:'Patrick Hand', cursive;
+    line-height: 30px;
+    color:rgb(108, 100, 81);
+}
+
+
+#notepad-section {
+position: relative;
+font-size: 20px;
+
+
+}
+
+#footer-1 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+margin-bottom: 100px;
+padding-right: 5px;
+letter-spacing: 1px;
+}
+
+#author {
+    font-weight: bold;
+    font-size: large;
+    color:rgb(108, 100, 81)
+}
+button {
+    background-color: rgb(216, 97, 60);
+    font-size: 15px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+  
+}
+
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 40px;
+    
+}
+
+
+hr:after {
+    background: #fff;
+    content: url('./img/small-logo.png');
+    padding: 0 4px;
+    position: relative;
+    top: -18px;
+}
+
+#footer-2 {
+    
+}
+
+#footer-3 {
+    text-align: center;
+}
